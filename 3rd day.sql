@@ -1,0 +1,10 @@
+-- show tables;
+-- update users set salary = 45000 where id =3;
+-- update users set salary = 70000 where id = 5;
+-- update users set name = 'aisha khan' where id = 7;
+ -- update users set salary = salary + 10000 where salary<60000 and id is not null;
+-- select*from users;
+-- SET SQL_SAFE_UPDATES = 0;
+-- update users set salary = salary + 10000 where salary<60000 and id is not null;
+delete from users where id = 3;
+select*from users;
